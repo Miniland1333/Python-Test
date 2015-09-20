@@ -3,9 +3,9 @@ class Gamepad:
         self.name="name"
 
     def getName(self):
-        __update()
+        self.update()
         return self.name
 
-    def __update(self):
+    def update(self):
         print("Updating")
         self.name="Hello World!"
